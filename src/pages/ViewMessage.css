@@ -10,6 +10,7 @@
 
 #view-message-page ion-item h2 {
   font-weight: 600;
+  text-align: center;
 }
 
 #view-message-page ion-item .date {
@@ -27,14 +28,20 @@
   font-size: 15px;
   margin-right: 12px;
   font-weight: normal;
+  
 }
 
 #view-message-page h1 {
   margin: 0;
   font-weight: bold;
   font-size: 22px;
+  text-align: center;
+  
 }
 
 #view-message-page p {
   line-height: 22px;
-}
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 30px !important
+  }

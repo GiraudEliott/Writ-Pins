@@ -56,7 +56,7 @@ const messages: Message[] = [
     id: 7
   }, 
   {
-    fromName: 'Eliott  GIRAUD',
+    fromName: 'Eliott GIRAUD',
     subject: "J'aime pas github",
     date: 'Last Month',
     id: 8

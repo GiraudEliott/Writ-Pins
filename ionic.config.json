@@ -1,0 +1,7 @@
+{
+  "name": "Writ'Pins",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

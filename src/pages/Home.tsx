@@ -1,6 +1,6 @@
-import MessageListItem from '../components/MessageListItem';
+import PinListItem from '../components/PinListItem';
 import { useState } from 'react';
-import { Message, getMessages } from '../data/messages';
+import { Pins, getPins } from '../data/pins';
 import {
   IonContent,
   IonHeader,
@@ -16,11 +16,11 @@ import './Home.css';
 
 const Home: React.FC = () => {
 
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [pins, setPins] = useState<Pins[]>([]);
 
   useIonViewWillEnter(() => {
-    const msgs = getMessages();
-    setMessages(msgs);
+    const msgs = getPins();
+    setPins(msgs);
   });
 
   const refresh = (e: CustomEvent) => {
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
         </IonHeader>
 
         <IonList>
-          {messages.map(m => <MessageListItem key={m.id} message={m} />)}
+          {pins.map(m => <PinListItem key={m.id} pins={m} />)}
         </IonList>
       </IonContent>
     </IonPage>

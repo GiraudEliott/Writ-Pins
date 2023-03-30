@@ -24,7 +24,36 @@ const pins: Pins[] = [
       Insight:9,
       CreationDate: "16/03/2023",
       id:0
+  },
+  {
+      Title:'Sample Title 2',
+      Content:'Hello world lorem ipsum etc..',
+      Author:'Sample Author',
+      Tags:["Sample Tag1","Sample Tag2", "Sample Tag3"],
+      Insight:9,
+      CreationDate: "16/03/2023",
+      id:1
+  },
+  {
+      Title:'Sample Title 3',
+      Content:'Hello world lorem ipsum etc..',
+      Author:'Sample Author',
+      Tags:["Sample Tag1","Sample Tag2", "Sample Tag3"],
+      Insight:9,
+      CreationDate: "16/03/2023",
+      id:2
+  },
+  {
+      Title:'Sample Title 4',
+      Content:'Hello world lorem ipsum etc..',
+      Author:'Sample Author',
+      Tags:["Sample Tag1","Sample Tag2", "Sample Tag3"],
+      Insight:9,
+      CreationDate: "16/03/2023",
+      id:3
   }
+
+  
 ];
   
   export const getPins = () => pins;

@@ -2,7 +2,13 @@
 http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
+@font-face {
+  font-family: AppFont;
+  src: url("./VG5000-Regular.otf");
+}
+
 :root {
+  --ion-font-family: AppFont;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

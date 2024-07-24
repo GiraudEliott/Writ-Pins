@@ -1,0 +1,33 @@
+/* Basic styling for the Login page */
+.ion-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ion-card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.ion-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ion-card-content {
+    padding: 20px;
+}
+
+.ion-item {
+    margin-bottom: 15px;
+}
+
+.ion-label {
+    font-weight: bold;
+}
+
+.ion-button {
+    margin-top: 10px;
+}

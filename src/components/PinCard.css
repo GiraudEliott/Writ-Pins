@@ -1,0 +1,66 @@
+/* General card styles for PinListItem and AddPinCard */
+.ion-card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ion-card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.ion-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.ion-card-content {
+    padding: 10px;
+}
+
+.ion-item {
+    margin-bottom: 10px;
+}
+
+.ion-label {
+    font-weight: bold;
+}
+
+.ion-input,
+.ion-textarea {
+    --padding-start: 10px;
+}
+
+.ion-button {
+    margin-top: 10px;
+}
+
+/* Styling for specific elements in PinListItem */
+.pin-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.pin-item-content {
+    font-size: 1rem;
+    color: #555;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+.dot-unread {
+    background-color: #28a745;
+}
+
+/* Optional: Styling for tags in PinListItem */
+.ion-chip {
+    margin: 2px;
+}
